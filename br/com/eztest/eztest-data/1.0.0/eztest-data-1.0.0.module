@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.eztest",
+    "module": "eztest-data",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "eztest-data-1.0.0.jar",
+          "url": "eztest-data-1.0.0.jar",
+          "size": 49895,
+          "sha512": "8ee00a9b266ecb257f379213da4acee379b22310b20a06dcf89cafe59b783245737950fc6a3284cc59102c7883901d6c6e5e2544fc7ea5faeebc56477e4d91b4",
+          "sha256": "0585e4ba90e25885922f9ed7d705c5cb4b23cc3bf368b0b23ba6a987b2546b7c",
+          "sha1": "4bebb9f8fe950b5c9246e4ab867116b09fad7b2e",
+          "md5": "a47b3761892aceaef91a64d433288d4b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.20"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "eztest-data-1.0.0.jar",
+          "url": "eztest-data-1.0.0.jar",
+          "size": 49895,
+          "sha512": "8ee00a9b266ecb257f379213da4acee379b22310b20a06dcf89cafe59b783245737950fc6a3284cc59102c7883901d6c6e5e2544fc7ea5faeebc56477e4d91b4",
+          "sha256": "0585e4ba90e25885922f9ed7d705c5cb4b23cc3bf368b0b23ba6a987b2546b7c",
+          "sha1": "4bebb9f8fe950b5c9246e4ab867116b09fad7b2e",
+          "md5": "a47b3761892aceaef91a64d433288d4b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "eztest-data-1.0.0-javadoc.jar",
+          "url": "eztest-data-1.0.0-javadoc.jar",
+          "size": 403282,
+          "sha512": "93352c959d0f756b94fa15cab06704fc564e81becf166692d44586f9b37549e508d226313b1f606dcdb4cb7f76050aa62ed7c4106a20cda00be66c0885c24e08",
+          "sha256": "8b9d87790e787e8edbe249dfee03b3fe427a45ada3eea1ae45a9b57b7356eed8",
+          "sha1": "e8c6a9c2228e95f626ce79c39e60077d2b49dce3",
+          "md5": "0d4fbb81f905e643fe446ffbfbe4bbb0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "eztest-data-1.0.0-sources.jar",
+          "url": "eztest-data-1.0.0-sources.jar",
+          "size": 28012,
+          "sha512": "273047bb195f4d4c2e3a7b93b464ea60d28a0a257f1aad3fd276b681b51811d8b9306fce969b728b7f82ce37a54fe5eb53dfd4d8254ed03aef7da757bbcd33aa",
+          "sha256": "dd3018392b6ac436e00ee6c08879d4461af3317153bad797749a2b9ba8a1f092",
+          "sha1": "1e784079235681d0b56a1078f72627db317fe702",
+          "md5": "07ff0f45b2c5bd56daf9ba234f069bae"
+        }
+      ]
+    }
+  ]
+}
